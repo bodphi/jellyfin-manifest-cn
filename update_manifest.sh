@@ -1,7 +1,7 @@
 
 proxy_addr="https://ghfast.top/"
 
-intro_version=${1:-10.11}
+intro_version=${1:-10.10}
 # https://github.com/intro-skipper/manifest/tree/main
 manifest="https://raw.githubusercontent.com/intro-skipper/manifest/refs/heads/main/${intro_version}/manifest.json"
 
