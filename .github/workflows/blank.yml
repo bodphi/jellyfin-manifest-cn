@@ -1,0 +1,57 @@
+name: Update Manifest (Action Mode)
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Intro Version'
+        default: '10.11'
+        required: false
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 检出代码
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. 下载文件 (curl 很简单，建议直接用 run，没必要为了下载专门找个 Action)
+      - name: Download Manifest
+        env:
+          VERSION: ${{ inputs.version || '10.11' }} # 如果没有输入，默认 10.11
+        run: |
+          url="https://raw.githubusercontent.com/intro-skipper/manifest/refs/heads/main/${VERSION}/manifest.json"
+          echo "Downloading from $url"
+          curl -L "$url" -o intro-skipper-manifest.json
+
+      # 3. 替换 GitHub 域名 (复用 Action 替代 sed)
+      - name: Replace GitHub URL
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          find: "https://github.com"
+          replace: "https://ghfast.top/https://github.com"
+          include: "intro-skipper-manifest.json"
+          regex: false
+
+      # 4. 替换 Raw GitHub 域名 (复用 Action 替代 sed)
+      - name: Replace Raw GitHub URL
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          find: "https://raw.githubusercontent.com"
+          replace: "https://ghfast.top/https://raw.githubusercontent.com"
+          include: "intro-skipper-manifest.json"
+          regex: false
+
+      # 5. 自动提交并推送 (复用最著名的 Git Auto Commit Action)
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "Auto update manifest [skip ci]"
+          file_pattern: "intro-skipper-manifest.json"
+          # 这个 Action 会自动检测是否有变化，没变化就不会提交，也不会报错
