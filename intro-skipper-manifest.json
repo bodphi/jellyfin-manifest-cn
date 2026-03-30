@@ -9,6 +9,14 @@
         "imageUrl": "https://cdn.jsdelivr.net/gh/intro-skipper/manifest@a434e00edba70493794e25917cc8d3326d5a85c6/images/intro-skipper/logo.png",
         "versions": [
             {
+                "version": "1.10.11.17",
+                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.17)\n",
+                "targetAbi": "10.11.6.0",
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.17/intro-skipper-v1.10.11.17.zip",
+                "checksum": "f14d188bc9c06873bf4b6076efab10f3",
+                "timestamp": "2026-03-28T19:19:08Z"
+            },
+            {
                 "version": "1.10.11.16",
                 "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.16)\n",
                 "targetAbi": "10.11.6.0",
@@ -52,12 +60,28 @@
         "imageUrl": "https://cdn.jsdelivr.net/gh/intro-skipper/segment-editor-plugin@master/images/logo.png",
         "versions": [
             {
-                "version": "0.1.10.0",
+                "version": "0.1.30.0",
                 "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
                 "targetAbi": "10.11.5.0",
-                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.10.0/segment-editor-plugin-v0.1.10.0.zip",
-                "checksum": "bc8e8ec495b3550935a7e4578d2feef9",
-                "timestamp": "2026-02-28T16:16:22Z"
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.30.0/segment-editor-plugin-v0.1.30.0.zip",
+                "checksum": "8f819946f84836ee0ed0c87ec0d40996",
+                "timestamp": "2026-03-28T17:08:04Z"
+            },
+            {
+                "version": "0.1.29.0",
+                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+                "targetAbi": "10.11.5.0",
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.29.0/segment-editor-plugin-v0.1.29.0.zip",
+                "checksum": "f18bc9610a308e3b3f48df0ca4633f56",
+                "timestamp": "2026-03-27T20:32:59Z"
+            },
+            {
+                "version": "0.1.27.0",
+                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+                "targetAbi": "10.11.5.0",
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.27.0/segment-editor-plugin-v0.1.27.0.zip",
+                "checksum": "ce7b08dc7114484010daeb16bdf76b03",
+                "timestamp": "2026-03-25T16:43:46Z"
             },
             {
                 "version": "0.1.25.0",
@@ -66,6 +90,14 @@
                 "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.25.0/segment-editor-plugin-v0.1.25.0.zip",
                 "checksum": "cf2ba5934128c20194ddd1d0b80d31c0",
                 "timestamp": "2026-03-20T16:16:22Z"
+            },
+            {
+                "version": "0.1.10.0",
+                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+                "targetAbi": "10.11.5.0",
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.10.0/segment-editor-plugin-v0.1.10.0.zip",
+                "checksum": "bc8e8ec495b3550935a7e4578d2feef9",
+                "timestamp": "2026-02-28T16:16:22Z"
             }
         ]
     },
