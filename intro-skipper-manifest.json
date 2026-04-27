@@ -60,6 +60,30 @@
         "imageUrl": "https://cdn.jsdelivr.net/gh/intro-skipper/segment-editor-plugin@master/images/logo.png",
         "versions": [
             {
+                "version": "0.1.48.0",
+                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+                "targetAbi": "10.11.5.0",
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.48.0/segment-editor-plugin-v0.1.48.0.zip",
+                "checksum": "fbda650a9fa759c79140df19bf53c1f6",
+                "timestamp": "2026-04-22T17:34:43Z"
+            },
+            {
+                "version": "0.1.47.0",
+                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+                "targetAbi": "10.11.5.0",
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.47.0/segment-editor-plugin-v0.1.47.0.zip",
+                "checksum": "bb901bd402142e9857a8e970eb4861ad",
+                "timestamp": "2026-04-22T03:26:08Z"
+            },
+            {
+                "version": "0.1.46.0",
+                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+                "targetAbi": "10.11.5.0",
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.46.0/segment-editor-plugin-v0.1.46.0.zip",
+                "checksum": "a392311f36b78a4f6df0fdef4fb6c3be",
+                "timestamp": "2026-04-20T20:02:58Z"
+            },
+            {
                 "version": "0.1.45.0",
                 "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
                 "targetAbi": "10.11.5.0",
@@ -74,30 +98,6 @@
                 "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.44.0/segment-editor-plugin-v0.1.44.0.zip",
                 "checksum": "7449c7ddf466c5dbb30a8d5cd632f892",
                 "timestamp": "2026-04-15T20:06:48Z"
-            },
-            {
-                "version": "0.1.43.0",
-                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-                "targetAbi": "10.11.5.0",
-                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.43.0/segment-editor-plugin-v0.1.43.0.zip",
-                "checksum": "914a7d26acf7abd914946aa83e3fcea9",
-                "timestamp": "2026-04-11T18:56:16Z"
-            },
-            {
-                "version": "0.1.42.0",
-                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-                "targetAbi": "10.11.5.0",
-                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.42.0/segment-editor-plugin-v0.1.42.0.zip",
-                "checksum": "81213640096e4aa856cbf428f21fad14",
-                "timestamp": "2026-04-09T14:22:02Z"
-            },
-            {
-                "version": "0.1.39.0",
-                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-                "targetAbi": "10.11.5.0",
-                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.39.0/segment-editor-plugin-v0.1.39.0.zip",
-                "checksum": "d8c3946cfe0d033b16fbfc33e9d4076e",
-                "timestamp": "2026-04-06T15:55:58Z"
             }
         ]
     },
@@ -130,12 +130,12 @@
         "imageUrl": "https://cdn.jsdelivr.net/gh/intro-skipper/manifest@a434e00edba70493794e25917cc8d3326d5a85c6/images/jellyfin-plugin-ms-chapter/logo.png",
         "versions": [
             {
-                "version": "0.5.1.0",
+                "version": "0.5.2.0",
                 "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/blob/master/CHANGELOG.md)",
                 "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/releases/download/0.5.1-2a46182/ChapterCreator-0.5.1.zip",
-                "checksum": "2EEA7269B8625FF9F26CF4503103774E",
-                "timestamp": "2026-04-15T20:32:37Z"
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/releases/download/0.5.2.0-4bb370d/ChapterCreator-0.5.2.0.zip",
+                "checksum": "533D67A3704A8EBE99E6278897CF6AC8",
+                "timestamp": "2026-04-20T20:32:37Z"
             }
         ]
     },
@@ -149,12 +149,12 @@
         "imageUrl": "https://cdn.jsdelivr.net/gh/intro-skipper/skipme.db-plugin@master/images/logo.png",
         "versions": [
             {
-                "version": "0.1.9.0",
+                "version": "0.1.14.0",
                 "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/skipme.db-plugin/blob/main/CHANGELOG.md)",
                 "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/skipme.db-plugin/releases/download//v0.1.9.0/SkipMe.db-plugin-v0.1.9.0.zip",
-                "checksum": "dda83ce9d644237896872af054d2deb8",
-                "timestamp": "2026-04-13T12:00:00Z"
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/skipme.db-plugin/releases/download//v0.1.14.0/SkipMe.db-plugin-v0.1.14.0.zip",
+                "checksum": "92087b61975f001034d80ab0b67af0fc",
+                "timestamp": "2026-04-25T00:00:00Z"
             }
         ]
     }
