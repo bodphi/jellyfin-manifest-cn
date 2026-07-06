@@ -9,6 +9,14 @@
         "imageUrl": "https://cdn.jsdelivr.net/gh/intro-skipper/manifest@a434e00edba70493794e25917cc8d3326d5a85c6/images/intro-skipper/logo.png",
         "versions": [
             {
+                "version": "1.10.11.22",
+                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.22)\n",
+                "targetAbi": "10.11.11.0",
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.22/intro-skipper-v1.10.11.22.zip",
+                "checksum": "7507b1915039c94cf67c450e4612fb37",
+                "timestamp": "2026-07-04T17:40:15Z"
+            },
+            {
                 "version": "1.10.11.21",
                 "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.21)\n",
                 "targetAbi": "10.11.11.0",
@@ -76,6 +84,30 @@
         "imageUrl": "https://cdn.jsdelivr.net/gh/intro-skipper/segment-editor-plugin@master/images/logo.png",
         "versions": [
             {
+                "version": "1.0.53.0",
+                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+                "targetAbi": "10.11.5.0",
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v1.0.53.0/segment-editor-plugin-v1.0.53.0.zip",
+                "checksum": "a51913187a14573eb982b1d4530d9f54",
+                "timestamp": "2026-07-04T09:38:31Z"
+            },
+            {
+                "version": "1.0.52.0",
+                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+                "targetAbi": "10.11.5.0",
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v1.0.52.0/segment-editor-plugin-v1.0.52.0.zip",
+                "checksum": "49611b799f83c5bd3a3b0999953e3578",
+                "timestamp": "2026-07-03T07:47:40Z"
+            },
+            {
+                "version": "1.0.51.0",
+                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+                "targetAbi": "10.11.5.0",
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v1.0.51.0/segment-editor-plugin-v1.0.51.0.zip",
+                "checksum": "83be725e9c8308e8c83d29374996fb5d",
+                "timestamp": "2026-07-02T11:10:30Z"
+            },
+            {
                 "version": "1.0.50.0",
                 "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
                 "targetAbi": "10.11.5.0",
@@ -90,30 +122,6 @@
                 "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v1.0.49.0/segment-editor-plugin-v1.0.49.0.zip",
                 "checksum": "e9c6868f60b3253b1bef9c382364fd5c",
                 "timestamp": "2026-06-24T16:26:12Z"
-            },
-            {
-                "version": "1.0.48.0",
-                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-                "targetAbi": "10.11.5.0",
-                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v1.0.48.0/segment-editor-plugin-v1.0.48.0.zip",
-                "checksum": "966b20e660829e1015afb7bee7d0b2b0",
-                "timestamp": "2026-06-22T18:51:35Z"
-            },
-            {
-                "version": "1.0.47.0",
-                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-                "targetAbi": "10.11.5.0",
-                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v1.0.47.0/segment-editor-plugin-v1.0.47.0.zip",
-                "checksum": "5b332beb5f221b75a923f9bdc9963145",
-                "timestamp": "2026-06-22T14:47:29Z"
-            },
-            {
-                "version": "1.0.46.0",
-                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-                "targetAbi": "10.11.5.0",
-                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/segment-editor-plugin/releases/download/v1.0.46.0/segment-editor-plugin-v1.0.46.0.zip",
-                "checksum": "95e8e120f62de11e57c6277749d64414",
-                "timestamp": "2026-06-20T10:11:29Z"
             }
         ]
     },
